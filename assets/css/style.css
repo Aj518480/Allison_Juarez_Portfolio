@@ -60,6 +60,10 @@ header,
     font-family: 'PT Mono', monospace;
 
 }
+footer{
+ 
+    width:100%;
+}
             
 /*
 font-family: 'PT Mono', monospace;

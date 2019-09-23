@@ -6,8 +6,11 @@
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -20,8 +23,44 @@
 
 }
 
+.navbar {
+    z-index: 1;
+}
 
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
 
+.portfolio{
+    margin-top: 50%;
+}
 
+.btn.btn-li{
+    background-color:#007bff;
+    color:white;
+}
+.btn.btn-git{
+    background-color:black;
+    color:white;
+}
+.jumbotron{
+    margin-top:100px;
+}
+.img-fluid{
+    margin-top: 50px;
+}
+.h4.mb-4{
+    font-family: 'PT Mono', monospace;
+    font-weight: bold;
+}
+.font-weight-normal{
+    font-family: 'PT Mono', monospace;
 
-
+}
+            
+/*
+font-family: 'PT Mono', monospace;
+font-family: 'Lusitana', serif;

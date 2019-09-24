@@ -65,11 +65,16 @@ header,
 
 }
 footer{
- 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
     width:100%;
 }
     
-section.mb-4{
+.container.py-5{
     color:white;
 }
 

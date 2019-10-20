@@ -4,27 +4,22 @@ body{
   background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
 }
 
-/* Small devices  (landscape phones, 576px and up) */
-@media (min-width: 375px) { 
 
-}
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .view {
-        overflow: visible;
-        margin-top: -56px;
+@media (max-width: 767px) {
+    .column {
+        width: 100%;
     }
 }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
+@media (min-width: 768px) and (max-width: 1024px) {
+    .column {
+        width: 50%;
+    }
 }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
+@media (min-width: 1025px) {
+    .column {
+        width: 25%;
+    }
 }
 
 .navbar {
@@ -81,6 +76,21 @@ footer{
     font-weight: bold;
     color:white;
 }
+.font-small{
+    background-color:#f0c3e1;
+}
+.myName{
+    font-size:40px;
+}
+.topNav{
+    background-color: #f0c3e1;
+}
+.infoJumbotron{
+    background-color:#8a5679;
+    color:white;
+}
 /*
 font-family: 'PT Mono', monospace;
 font-family: 'Lusitana', serif;
+
+

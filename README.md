@@ -7,7 +7,7 @@ As you vist my portfolio you will see my top 6 projects. It will also include a 
 
 ### Preview
 
-
+![portfolio](https://user-images.githubusercontent.com/53452871/67154965-20927080-f2d3-11e9-9230-8129d45468cc.PNG)
 
 
 ### Technologies used:

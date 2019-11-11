@@ -1,4 +1,4 @@
-# Bootstrap-2.0
+# Allison Juarez - The Web Developer
 ### Overview:
 This page is a portfolio of my lastest projects. It also includes some information about how I started my interest in Web Development.
 
